@@ -1,0 +1,18 @@
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 2px 0px;
+}
+
+.footer div:first-child {
+  display: flex;
+  gap: 10px;
+}

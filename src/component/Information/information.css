@@ -1,0 +1,49 @@
+/* This is the information part which contain description about pomodoro. */
+.information {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Quicksand", sans-serif;
+  padding-top: 2rem;
+  margin-top: 100px;
+}
+
+.aboutPomodoro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  max-width: 630px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding-bottom: 4rem;
+  width: 90%;
+}
+
+.aboutPomodoro a {
+  color: #db524d;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+}
+
+.aboutPomodoro ol,
+ul {
+  margin: 0px;
+  padding: 0px 24px;
+  font-size: 1.2rem;
+}
+
+.aboutPomodoro h2::first-letter {
+  content: "";
+  display: block;
+  padding-top: 8px;
+  border-bottom: 4px solid #f05b56b1;
+  border-bottom-width: 4px;
+}
+
+*::marker {
+  color: #db524d;
+}
+
+.aboutPomodoro strong {
+  color: #db524de2;
+}
