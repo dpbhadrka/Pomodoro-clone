@@ -16,3 +16,23 @@
   display: flex;
   gap: 10px;
 }
+
+@media only screen and (max-width: 370px) {
+  .footer div:first-child {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 250px) {
+  .footer {
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+}

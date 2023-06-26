@@ -71,3 +71,35 @@ a {
   background: #ffffff;
   margin: 15px 0px;
 } */
+
+@media (max-width: 400px) {
+  #projectTitle span {
+    display: none;
+  }
+
+  .about a {
+    box-shadow: none;
+    padding: 0px;
+  }
+  .about #aboutLink {
+    display: none;
+    /* width: 1rem; */
+    /* height: 1rem; */
+  }
+
+  .about #aboutIcon {
+    display: block;
+    border: none;
+  }
+
+  .about #aboutIcon img {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+@media (max-width: 300px) {
+  #projectTitle {
+    display: none;
+  }
+}

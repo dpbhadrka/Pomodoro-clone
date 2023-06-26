@@ -73,11 +73,70 @@
 
 /* This is the Quote section */
 .quote {
-  width: 49%;
+  max-width: 640px;
   color: #12df49;
   margin: 0px auto;
   font-size: 26px;
   padding-bottom: 10px;
   text-align: center;
   border-bottom: 2px solid white;
+}
+
+@media (max-width: 530px) {
+  .pomodoroTechnique a {
+    font-size: 1rem;
+    padding: 2px 12px;
+    margin: 0px;
+  }
+  .options {
+    /* margin: 10; */
+    justify-content: space-evenly;
+  }
+  .timer {
+    font-size: 85px;
+  }
+
+  .options:hover > :not(:hover) {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 370px) {
+  .options a span {
+    display: none;
+  }
+
+  .options {
+    justify-content: space-evenly;
+  }
+
+  .options a {
+    padding: 7px;
+  }
+
+  .timer {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 191px) {
+  .options {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4px;
+  }
+
+  .options a {
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  #colon,
+  #seconds {
+    display: none;
+  }
+
+  .clickMe {
+    font-size: 0.8rem;
+  }
 }

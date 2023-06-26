@@ -47,3 +47,38 @@ ul {
 .aboutPomodoro strong {
   color: #db524de2;
 }
+
+@media screen and (max-width: 550px) {
+  .aboutPomodoro {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+  .aboutPomodoro h1 {
+    font-size: 25px;
+  }
+  .aboutPomodoro p,
+  .aboutPomodoro ol,
+  ul {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 300px) {
+  .aboutPomodoro h1 {
+    font-size: 20px;
+  }
+  .aboutPomodoro p,
+  .aboutPomodoro ol,
+  .aboutPomodoro ul {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 250px) {
+  .information {
+    display: none;
+  }
+}
