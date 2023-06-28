@@ -1,0 +1,42 @@
+.takeTask {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  border: 2px dashed rgba(255, 255, 255, 0.555);
+  font-size: 2rem;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.addTask.takeTask {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.addTask.takeTask input {
+  height: 2rem;
+  width: 95%;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.taskButton {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.taskButton button {
+  padding: 7px;
+  width: 140px;
+  margin: 7px;
+  font-size: 1.4rem;
+}
